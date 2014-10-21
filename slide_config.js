@@ -22,10 +22,10 @@ var SLIDE_CONFIG = {
 
   // Author information
   presenters: [{
-    name: '<a target="_blank" href="http://twitter.com/zigolis">Gabriel Zigolis / @zigolis</a>',
+    name: '<a target="_blank" href="http://twitter.com/zigolis">@lcobucci & @zigolis</a>',
     company: '',
     gplus: 'http://plus.google.com/1234567890',
-    twitter: '@zigolis',
+    twitter: '@lcobucci & @zigolis',
     www: 'http://www.zigolis.com',
     github: 'http://github.com/zigolis'
   }, {
