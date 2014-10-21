@@ -119,7 +119,7 @@ URL: https://code.google.com/p/io-2012-slides
       </pre>
     </article>
   </slide>
-  
+
   <slide>
     <hgroup>
       <h2 class="small">PHP!</h2>
@@ -130,15 +130,15 @@ URL: https://code.google.com/p/io-2012-slides
       $sum = function ($x, $y) {
           return $x + $y;
       };
-      
+
       $sub = function ($x, $y) {
           return $x - $y;
-      }; 
-      
+      };
+
       $calculation = function ($x, $y, $operation) {
           return $operation($x, $y);
       };
-      
+
       echo $calculation(10, 20, $sum);
       echo $calculation(10, 20, $sub);
       </pre>
@@ -174,12 +174,35 @@ URL: https://code.google.com/p/io-2012-slides
     </hgroup>
     <article>
       <pre class="prettyprint" data-lang="javascript">
-      $test = 'one';
-      echo $test;
+      var test = 'one';
+      console.log(test);
 
-      $test = 1;
-      $test = ['one', 'two', 'three'];
-      $test = ['one' => 1, 'two' => 2, 'three' => 3];
+      test = 1;
+      test = ['one', 'two', 'three'];
+      test = {one: 1, two: 2, three: 3};
+      </pre>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2 class="small">JS!</h2>
+    </hgroup>
+    <article>
+      <pre class="prettyprint" data-lang="javascript">
+      function Person() {}
+
+      Person.prototype.walk = function(name){
+        this.name = name;
+
+        console.log('I am' + this.name + ' and I am walking!');
+      };
+
+      Person.prototype.sayHello = function(name){
+        this.name = name;
+
+        console.log('hello' + this.name);
+      };
       </pre>
     </article>
   </slide>
