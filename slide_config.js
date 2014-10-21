@@ -1,8 +1,8 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'Hello mundo REST<br>',
-    subtitle: 'com BackboneJS',
+    title: 'Aplicações RESTful<br>',
+    subtitle: 'PHP e JS juntos, mas separados',
     //eventInfo: {
     //  title: 'Google I/O',
     //  date: '6/x/2013'
@@ -28,13 +28,13 @@ var SLIDE_CONFIG = {
     twitter: '@zigolis',
     www: 'http://www.zigolis.com',
     github: 'http://github.com/zigolis'
-  }/*, {
-    name: 'Second Name',
-    company: 'Job Title, Google',
+  }, {
+    name: '<a target="_blank" href="http://twitter.com/lcobucci">Luís Otávio Cobucci Oblonczyk / @lcobucci</a>',
+    company: '',
     gplus: 'http://plus.google.com/1234567890',
-    twitter: '@yourhandle',
-    www: 'http://www.you.com',
-    github: 'http://github.com/you'
-  }*/]
+    twitter: '@lcobucci',
+    www: 'http://about.me/lcobucci',
+    github: 'http://github.com/lcobucci'
+  }]
 };
 
