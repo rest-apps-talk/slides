@@ -50,15 +50,70 @@ URL: https://code.google.com/p/io-2012-slides
     <aside class="gdbar zigbar">
         <span class="blogmv">@lcobucci</span>
     </aside>
+  </slide>
+  
+  <slide>
+    <article class="flexbox hcenter vcenter">
+        <img src="images/php.gif">
+    </article>
+  </slide>
+  <slide>
+    <hgroup>
+      <h2 class="small">PHP?</h2>
+    </hgroup>
 
-    <article class="flexbox hcenter" style="margin-top:100px;">
+    <article>
+      <br />
+      <br />
+      <ul class="my-style">
+        <li>Linguagem de script;</li>
+        <li>Open Source;</li>
+        <li>Aplicável à: web, CLI e desktop;</li>
+        <li><strong>Presente em +80% dos sites do mundo</strong></li>
+      </ul>
     </article>
   </slide>
   
   <slide>
+    <hgroup>
+      <h2 class="small">PHP!</h2>
+    </hgroup>
     <article>
       <pre class="prettyprint" data-lang="php">
-      $test = 'aa';
+      &lt;?php
+      $test = 'one';
+      echo $test;
+      
+      $test = 1;
+      $test = ['one', 'two', 'three'];
+      $test = ['one' => 1, 'two' => 2, 'three' => 3];
+      </pre>
+    </article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2 class="small">PHP!</h2>
+    </hgroup>
+    <article>
+      <pre class="prettyprint" data-lang="php">
+      &lt;?php
+      class Person
+      {
+          private $name;
+          
+          /** @param string $name */
+          public function __construct($name)
+          {
+              $this->name = $name;
+          }
+          
+          /** @return string */
+          public function getName()
+          {
+              return $this->name;
+          }
+      }
       </pre>
     </article>
   </slide>
@@ -140,10 +195,10 @@ URL: https://code.google.com/p/io-2012-slides
       <br>
         <li>Client-Server</li>
         <li>Stateless</li>
-        <li>Cache</li>
-        <li>HTTP verbs: GET, POST, PUT, DELETE...</li>
-        <li>Status code</li>
-        <li>Content negociation (Accept: json, xml, html)</li>
+        <li>Cacheable</li>
+        <li>Layered system</li>
+        <li>Code on demand</li>
+        <li>Uniform interface</li>
       </ul>
     </article>
   </slide>
