@@ -68,8 +68,9 @@ URL: https://code.google.com/p/io-2012-slides
       <ul class="my-style">
         <li>Linguagem de script;</li>
         <li>Open Source;</li>
-        <li>Aplicável à: web, CLI e desktop;</li>
-        <li><strong>Presente em +80% dos sites do mundo</strong></li>
+        <li>Extremamente fácil de aprender;</li>
+        <li>Aplicável na web, CLI e desktop;</li>
+        <li>Presente em +80% dos sites do mundo.</li>
       </ul>
     </article>
   </slide>
@@ -87,6 +88,7 @@ URL: https://code.google.com/p/io-2012-slides
       $test = 1;
       $test = ['one', 'two', 'three'];
       $test = ['one' => 1, 'two' => 2, 'three' => 3];
+      $test = [[1, 2, 3], [4, 5, 6]];
       </pre>
     </article>
   </slide>
@@ -114,6 +116,31 @@ URL: https://code.google.com/p/io-2012-slides
               return $this->name;
           }
       }
+      </pre>
+    </article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2 class="small">PHP!</h2>
+    </hgroup>
+    <article>
+      <pre class="prettyprint" data-lang="php">
+      &lt;?php
+      $sum = function ($x, $y) {
+          return $x + $y;
+      };
+      
+      $sub = function ($x, $y) {
+          return $x - $y;
+      }; 
+      
+      $calculation = function ($x, $y, $operation) {
+          return $operation($x, $y);
+      };
+      
+      echo $calculation(10, 20, $sum);
+      echo $calculation(10, 20, $sub);
       </pre>
     </article>
   </slide>
